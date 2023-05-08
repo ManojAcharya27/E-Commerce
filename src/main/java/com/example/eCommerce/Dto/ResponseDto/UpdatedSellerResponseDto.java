@@ -1,0 +1,15 @@
+package com.example.eCommerce.Dto.ResponseDto;
+
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+@Builder
+public class UpdatedSellerResponseDto {
+    String name;
+
+    int updated_age;
+}
